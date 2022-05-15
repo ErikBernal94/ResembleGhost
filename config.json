@@ -1,0 +1,21 @@
+{
+    "url":"http://localhost:2369/ghost/#/site",
+    "browsers":["chromium", "webkit", "firefox"],
+    "options":{
+        "output": {
+            "errorColor": {
+                "red": 255,
+                "green": 255,
+                "blue": 255
+            },
+            "errorType": "movement",
+            "largeImageThreshold": 1200,
+            "useCrossOrigin": false,
+            "outputDiff": true
+        },
+        "scaleToSameSize": true,
+        "ignore": "antialiasing"
+    },
+    "viewportHeight":600, 
+    "viewportWidth":800
+}
